@@ -1,5 +1,7 @@
 import Image from 'public/logo'
 import Link from 'next/link'
+import ServiceCard from './components/ServiceCard'
+
 
 export default function Home() {
   return (
@@ -29,6 +31,7 @@ export default function Home() {
     <Link href="/users/new">
     <h1>Register</h1>
     </Link>
+    <ServiceCard />
     </main>
   )
 }

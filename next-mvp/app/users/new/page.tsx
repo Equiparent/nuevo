@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import SignUpButton from '@/app/components/SignUpButton';
 
 
     const NewUserPage = () => {
@@ -34,8 +35,8 @@ import Link from 'next/link'
               </div>
               
               <div>
-              <input type="submit" className="submit"  value="Iniciar Sesión" name="buttonsignup" id="submit" />
-              </div>
+              <SignUpButton />
+               </div>
         
               </fieldset>
               </main>
